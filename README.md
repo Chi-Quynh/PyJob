@@ -2,18 +2,25 @@
 
 ## Overview
 
-**PyJob** is a Data Science project designed to scrape job listings from popular It job posting sites such as TopCV and generate an analysis report. The tool utilizes Python and Selenium to automate data extraction, with the results stored in a PostgreSQL database for further processing and analysis. This project allows users to gain insights into the job market by providing an automated pipeline for data collection and reporting.
-
+**PyJob** is a Data Science project designed to scrape job listings from popular It job posting sites such as TopCV according to the ETL process
 ## Features
 
 - Web scraping of job data from topCV using Python and Selenium.
 - Automated extraction of job-related data, including job title, company, location, salary range, and job description.
 - Data storage in PostgreSQL database for scalability and performance.
 
-
 ## To be added Features
 - Generate reports providing insights into job trends and other relevant statistics.
-  
+
+## Extract
+Selenium and Python are used to access the website and extract DOM elements for data. We used web driver here because web crawler are blocked by many websites.
+
+## Transform
+The data are then filtered using code
+
+## Load
+The data are then saved in RDBMS databases on PostgreSQL
+
 ## Technologies Used
 
 - **Python**
