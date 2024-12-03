@@ -6,7 +6,7 @@
 
 ## Features
 
-- Web scraping of job data from multiple online job portals using Python and Selenium.
+- Web scraping of job data from topCV using Python and Selenium.
 - Automated extraction of job-related data, including job title, company, location, salary range, and job description.
 - Data storage in PostgreSQL database for scalability and performance.
 
