@@ -2,7 +2,7 @@
 
 ## Overview
 
-**PyJob** is a Data Science project designed to scrape job listings using the ETL model and output as analysis report
+**PyJob** is a Data Science project that can scrape job listings and output as analysis report in accordance to the ETL model
 ## Features
 
 - Web scraping of job data from topCV using Python and Selenium.
