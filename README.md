@@ -19,7 +19,7 @@ Selenium and Python are used to access the website and extract DOM elements for 
 The data are then filtered using code
 
 ## Load
-The data are then saved in RDBMS databases on PostgreSQL
+The data are then saved in Relational databases on PostgreSQL
 
 ## Technologies Used
 
