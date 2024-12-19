@@ -68,5 +68,31 @@ def insert_data(insert_values):
         if conn:
             conn.close()
 
-if __name__ == '__main__':
-    main()
+def get_data():
+    conn = None
+    cur = None
+    try:
+        # Load the configuration
+        config = load_config()
+        
+        # Establish connection
+        conn = connect(config)
+
+        # Create a cursor object using the connection
+        cur = conn.cursor()
+
+        #get script
+        get_script = '''SELECT * FROM job_posting;'''
+        cur.execute(get_script)
+        data = cur.fetchall()
+        print("Job posting retrieved successfully.")
+        return data
+    except Exception as e:
+        print(e)    
+    finally:
+        # Close resources safely
+        if cur is not None:
+            cur.close()
+        if conn is not None:
+            conn.close()
+
