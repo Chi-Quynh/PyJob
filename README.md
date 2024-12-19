@@ -4,7 +4,7 @@
 
 **PyJob** is a Data Science project that can scrape job listings and output as analysis report following the ETL model 
 
-![Program Results](docs/Screenshot 2024-12-18 160011.png)
+
 
 ## Features
 
