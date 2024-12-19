@@ -37,3 +37,8 @@ Then, pulled from PostgreSQL to export as CSV file
 Clone the repository:
    ```bash
    git clone https://github.com/Chi-Quynh/PyJob.git
+
+Set up dependicies:
+   '''bash
+   pip install -r requirements.txt
+
