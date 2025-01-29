@@ -1,6 +1,5 @@
 # PyJob - Job Data Scraper and Analysis Tool
 
-# Introduction
 
 **PyJob** helps you scrape job listings on websites such as TopCV, etc
 
